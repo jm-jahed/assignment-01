@@ -61,9 +61,7 @@ nav {
     line-height: 24px;
     cursor: pointer;
 }
-/* .common-btn:hover {
-    box-shadow: 0 6px 16px rgba(123, 92, 252, 0.5);
-} */
+
 
 /* HERO */
 .hero {
@@ -120,4 +118,49 @@ nav {
     line-height: 24px;
     cursor: pointer;
     margin-top: 278px;
+}
+/*  SPEAKERS SECTION  */
+.speakers-section h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 80px 0;
+    font-weight: 700;
+    color: #111;
+}
+
+/*  columns  */
+.speakers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 34px;
+}
+
+/*  Speaker Card  */
+.speaker-card {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.speaker-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.10);
+}
+
+/*  Image  */
+.speaker-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+/*  Content  */
+.speaker-content {
+    padding: 20px 24px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
