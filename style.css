@@ -461,3 +461,35 @@ nav {
     margin: 40px 0;
 
 }
+
+.career-card {
+    width: 260px;
+    padding: 25px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.08);
+
+}
+
+.career-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.career-card p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 14px;
+}
+
+.career-btn {
+    width: 220px;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    background: #2563EB;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
