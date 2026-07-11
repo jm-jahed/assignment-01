@@ -164,3 +164,164 @@ nav {
     flex-direction: column;
     gap: 4px;
 }
+
+/*  Category badges  */
+.category {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    align-self: flex-start;
+}
+
+.category.ai-ml {
+    color: #0066cc;
+}
+
+.category.cloud {
+    color: #6b46c1;
+}
+
+.category.frontend {
+    color: #1e40af;
+}
+
+.category.security {
+    color: #c2410c;
+}
+
+/*  Name & Role  */
+.name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0b0d12;
+    margin: 8px 0 2px 0;
+}
+
+.role {
+    font-size: 0.95rem;
+    color: #555;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/*  PRICING SECTION  */
+.pricing-section {
+    width: 100%;
+    max-width: 1440px;
+    padding: 33px 60px 80px 60px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pricing-section .container {
+    width: 100%;
+}
+
+/* Heading */
+.pricing-section .section-title {
+    width: 100%;
+    color: #0D1B2A;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 12px;
+}
+
+
+/* Subtitle */
+.pricing-section .section-sub {
+    width: 100%;
+    color: #575757;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+
+/* Cards Wrapper */
+.pricing-grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Common Card */
+.pricing-card {
+    width: 370.656px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    background: #FFFFFF;
+}
+
+
+/* Dark Card */
+.pricing-card.popular {
+    width: 370.672px;
+    border-radius: 12px;
+    border: 1px solid #0D1B2A;
+    background: #0D1B2A;
+}
+
+
+/* Plan Name */
+.plan-name {
+    color: #0D1B2A;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+
+.pricing-card.popular .plan-name {
+    color: #FFFFFF;
+}
+
+
+/* Price */
+.plan-price {
+    color: #0D1B2A;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
+.pricing-card.popular .plan-price {
+    color: #FFFFFF;
+}
+
+
+.plan-price span {
+    color: #575757;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.pricing-card.popular .plan-price span {
+    color: rgba(255, 255, 255, 0.6);
+}
