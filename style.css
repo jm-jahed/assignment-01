@@ -325,3 +325,92 @@ nav {
 .pricing-card.popular .plan-price span {
     color: rgba(255, 255, 255, 0.6);
 }
+/* Feature List */
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.features li {
+    color: #575757;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+
+.features li::before {
+    content: "✓";
+    margin-right: 10px;
+    color: #2563EB;
+}
+
+
+.pricing-card.popular .features li {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
+.pricing-card.popular .features li::before {
+    color: #FFFFFF;
+}
+
+
+/*  BUTTON  */
+.pricing-card .pricing-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    padding: 11px 0;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Standard Button */
+.pricing-btn.standard {
+    border: 1px solid #2563EB;
+    background: transparent;
+    color: #2563EB;
+}
+
+
+/* Pro Button */
+.pricing-card.popular .pricing-btn.pro {
+    border: 1px solid #2563EB;
+    background: #2563EB;
+    color: #FFFFFF;
+}
+
+/* Team Button */
+.pricing-btn.team {
+    border: 1px solid #2563EB;
+    background: transparent;
+    color: #2563EB;
+}
+
+
+
+/* Hover */
+.pricing-btn.standard:hover,
+.pricing-btn.team:hover {
+    background: #2563EB;
+    color: #FFFFFF;
+}
+
+
+.pricing-card.popular .pricing-btn.pro:hover {
+    opacity: 0.9;
+}
