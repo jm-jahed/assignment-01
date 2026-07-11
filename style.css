@@ -61,3 +61,63 @@ nav {
     line-height: 24px;
     cursor: pointer;
 }
+/* .common-btn:hover {
+    box-shadow: 0 6px 16px rgba(123, 92, 252, 0.5);
+} */
+
+/* HERO */
+.hero {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 30%, rgba(0, 0, 0, 0.00) 70%), linear-gradient(213deg, rgba(0, 0, 0, 0.00) 42.9%, rgba(0, 0, 0, 0.88) 82.18%), url('./images/banner.jpg') lightgray 50% / cover no-repeat;
+    padding: 100px 0 200px;
+    background-size: cover;
+    background-position: center;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.hero p {
+    font-size: 1.1rem;
+    color: #cbd5e6;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+
+.hero-btn {
+    display: flex;
+    width: 282px;
+    height: 74px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+    margin-top: 278px;
+}
